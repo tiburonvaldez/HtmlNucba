@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 4</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form>
+        <label for="name">Ingrese su nombre:</label>
+        <input type="text" id="name">
+        <label for="surname">Ingrese su apellido</label>
+        <input type="text" id="surname">
+    </form>
+    <form>
+         Sexo:
+        <label for="gender">hombre</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">mujer </label>
+            <input type="radio" name="gender" id="gender">
+       
+    </form>
+<form>
+    <label for="email">Correo:</label>
+    <input type="mail">
+</form>
+
+<form>
+    <label for="lugar">Selecciona o escribe tu lugar de nacimiento:</label>
+    <input list="place" id="lugar" name="lugar">
+    <datalist id="place">
+        <option value="buenos aires">
+        <option value="santa fe">
+        <option value="tokio">
+        <option value="hawai">
+        <option value="chubut">
+    </datalist>
+</form>
+<form>
+   <textarea name="description" id="description">descibe tu vida</textarea>
+</form>
+<form>
+    <label for="novedades_ofertas">Deesea recibir información sobre novedades y ofertas</label>
+    <input type="checkbox" name="extra" id="novedades_ofertas">
+    <label for="terminos">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+    <button>Enviar</button>
+</form>
+</body>
+</html>
